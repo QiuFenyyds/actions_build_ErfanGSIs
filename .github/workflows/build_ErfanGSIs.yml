@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/m2111/9.0.4.0/cn/20220721192410/e997fe94/update.zip
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s_Pro/9.21.8.24/cn_beta/20210824002116/e70d8270/update.zip
   ROM_NAME: Flyme
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
