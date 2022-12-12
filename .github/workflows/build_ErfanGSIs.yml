@@ -31,7 +31,9 @@ jobs:
        - name: Initialization environment
          run: |
             sudo -E apt-get -qq install git wget
-       
+            python -m pip install --upgrade pip
+            pip install tensorflow==1.14.0
+            
        - name: Clone ErfanGSI Source Code
          run: git clone --recurse-submodules https://github.com/erfanoabdi/ErfanGSIs.git ErfanGSIs
          
